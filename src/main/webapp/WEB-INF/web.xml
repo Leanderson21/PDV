@@ -1,0 +1,48 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SalvarUsuarioServlet</servlet-name>
+  	<display-name>SalvarUsuarioServlet</display-name>
+  	<description></description>
+  	<servlet-class>br.com.pdv.controller.SalvarUsuarioServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginUsuarioServlet</servlet-name>
+  	<display-name>LoginUsuarioServlet</display-name>
+  	<description></description>
+  	<servlet-class>br.com.pdv.controller.LoginUsuarioServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListarUsuariosServlet</servlet-name>
+  	<display-name>ListarUsuariosServlet</display-name>
+  	<description></description>
+  	<servlet-class>br.com.pdv.controller.ListarUsuariosServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeslogarUsuario</servlet-name>
+  	<display-name>DeslogarUsuario</display-name>
+  	<description></description>
+  	<servlet-class>br.com.pdv.controller.DeslogarUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SalvarUsuarioServlet</servlet-name>
+  	<url-pattern>/SalvarUsuarioServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginUsuarioServlet</servlet-name>
+  	<url-pattern>/LoginUsuarioServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListarUsuariosServlet</servlet-name>
+  	<url-pattern>/ListarUsuariosServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeslogarUsuario</servlet-name>
+  	<url-pattern>/DeslogarUsuario</url-pattern>
+  </servlet-mapping>
+    
+</web-app>
